@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../GitHub/responsive-portfolio-website-Alexa"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "portfolio practice"
+	}
+}
