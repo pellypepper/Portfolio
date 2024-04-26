@@ -1189,7 +1189,9 @@ a{
 /*==================== Large Screen ====================*/
 
 @media screen  and (min-width: 780px) {
-  
+    .menu_links{
+        display: none;
+    }
     .home_icon i{
         font-size: 1.7rem;  
     }
