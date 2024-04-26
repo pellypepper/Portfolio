@@ -1147,7 +1147,7 @@ a{
 
 /*==================== Medium Screen ====================*/
 
-@media screen  and (min-width: 490px) {
+@media screen  and (min-width: 481px) {
    
     .home_content p{
        width: 200px;
@@ -1276,7 +1276,7 @@ a{
         font-size: 30px;
     }
     .home_img{
-        margin-left: 80px;
+        margin-left: 100px;
     
         grid-area: home_img;
         width: 250px;
