@@ -94,7 +94,7 @@ body.dark-theme{
 /*==================== Layout ====================*/
 
 .container{
-    max-width: 768px;
+    max-width: 968px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
 }
@@ -214,10 +214,10 @@ nav button {
 
 .home_container article{
     
-    padding: 20px;
+   
     display: grid;
-    justify-content: center;
-    column-gap: 20px;
+ 
+    justify-content: space-evenly;
     grid-template-columns: max-content max-content max-content;
     margin: 0 auto;
     
@@ -271,7 +271,7 @@ nav button {
 }
 .home_content p{
     display: flex;
-
+   
     flex-wrap: wrap;
    font-size: 10px;
     font-style: italic;
@@ -1147,18 +1147,22 @@ a{
 
 /*==================== Medium Screen ====================*/
 
-@media screen  and (min-width: 568px) {
-    body{
-        background-color: red;
+@media screen  and (min-width: 490px) {
+   
+    .home_content p{
+       width: 200px;
+    
     }
-         .nav_icon, #close, #menu_links{
-             display: none;
-        }
+    #close,  .nav_icon{
+       display: none;
+    }
+
+    
         .nav_Menu li{
             margin: .5rem;
         }
-        .home_container article{
-           
+        .home_container {
+         margin-top: -.5rem;  
         }
         .about_content{
   
@@ -1185,11 +1189,12 @@ a{
 /*==================== Large Screen ====================*/
 
 @media screen  and (min-width: 780px) {
-    body{
-        background-color: var(--body-color);
-    }
+  
     .home_icon i{
         font-size: 1.7rem;  
+    }
+    .home_container{
+        margin-top: 5rem;
     }
     .home_container article{
         column-gap: 80px;
