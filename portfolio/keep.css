@@ -1,0 +1,160 @@
+
+
+@media screen  and (min-width: 568px) {
+    .first_section{
+         width: 750px;
+         border: 2px solid blak;
+    }
+    main .first_section article{
+       
+       width: 700px;
+       margin: 0 auto;
+      
+       
+    }
+    .first_section{
+        
+    }
+    .fsection_content{
+      
+        font-size: 10px;
+        width: 250px;
+    }
+    .fsection_icon{
+       
+    }
+    .fsection_content p{
+        width: 200px;
+    }
+    .fsection_content button{
+        width: 120px;
+        height: 35px;
+    }
+    .fsection_img img{
+        width: 220px;
+        height: 220px;
+
+    }
+    .fsection_img{
+
+        width: 250px;
+
+        margin-top: 2rem;
+        
+        
+    }
+    .Ssection article{
+        width: 700px;
+        
+        margin: 0 auto;
+         }
+    .Ssection_img img {
+        width: 270px;
+        height: 220px;
+    }
+    .Ssection_text{
+        width: 270px;
+        margin-top: -15px;
+    }
+    .Ssection_miniText{
+        width: 200px;
+    }
+    .Ssection_miniText h3{
+        font-size: 15px;
+    }
+    .Ssection_content button {
+        margin-top: 10px;
+    }
+    .tsection article{
+        width: 750px;
+        height: 650px;
+    }
+    .skill_subHeader{
+        width: 700px;
+    }
+    .skills_content{
+         font-size: 15px;
+        width: 300px;
+        height: 250px;
+    }
+    .skills_list{
+        width: 250px;
+    }
+    .percentage{
+        width: 270px;
+    }
+    .portfolio_header div img{
+        width: 250px;
+
+    }
+}
+
+@media screen and (max-width: 350px){
+    
+    .first_section{
+       
+        width: 300px;
+         }
+    .fsection_img{
+        width: 150px;
+       
+      }
+  
+    .header_container  ul li a{
+       
+        font-size: 10px;
+   }
+    #close{
+        right: .5rem;
+    }
+   
+    
+     .Ssection article{
+        width: 300px;
+         
+     }
+     .Ssection_content p{
+        width: 270px;
+        margin: 0 auto;
+     }
+     .Ssection_miniText h3{
+        font-size: 10px;
+        width: 250px;
+     }
+     .Ssection_content button{
+        width: 100px;
+        font-size: var(--small-font-size);
+     }
+     .tsection article{
+        width: 300px;
+     }
+     .skill_subHeader{
+        width: 300px;
+     }
+     .portfolio_container div img{
+        width: 200px;
+        height: 170px;
+        margin: 0 auto;
+        display: flex;
+
+     }
+     #next{
+        right: -85px;
+        font-size: 20px;
+     }
+     #prev{
+        left: -85px;
+        font-size: 20px;
+     }
+     .message_subright{
+        width: 250px;
+     }
+     .message_subleft{
+        width: 250px;
+     }
+      
+}
+
+@media screen and (max-width: 350px){
+        
+}
