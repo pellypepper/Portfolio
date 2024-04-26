@@ -318,16 +318,19 @@ button{
 .about_content{
   
       display: grid;
-      grid-template-columns: 1fr;
-     gap: 20px;
+      grid-template-columns: 1fr 1fr;
+      min-height: 300px;
+      border: 2px solid ;
+      gap: 20px;
     
 }
 .about_img{
-   
+  
+
 }
 .about_img img{
     width: 400px;
-    height: 200px;
+    height: 300px;
     
 }
 .about_text{
@@ -337,14 +340,13 @@ button{
 .about_text p{
     font-size: var(--small-font-size);
     display: flex;
-    width: 400px;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     text-align: left;
    
 }
 .about_miniText{
   display: flex;
-  width: 400px;
+
   justify-content: space-between;
   
 
@@ -1037,7 +1039,7 @@ a{
      
     }
     .header_container{
-      
+
       bottom: 0;
       display: flex;
       padding: px;
@@ -1118,7 +1120,7 @@ a{
       text-decoration: none;
     }
     .toggle_menu{
-
+       margin-right: 1rem;
     }
     .nav_icon{
   
@@ -1146,6 +1148,9 @@ a{
 /*==================== Medium Screen ====================*/
 
 @media screen  and (min-width: 568px) {
+    body{
+        background-color: red;
+    }
          .nav_icon, #close, #menu_links{
              display: none;
         }
@@ -1280,14 +1285,14 @@ a{
     .about_container{
      
     }
-    .about_content{
-        
-        justify-items: center;
+    .about_container .about_content{
+        grid-template-columns: 1fr;
+    
     }
 
     .about_img img{
         width: 380px;  
-        height: 380px;  
+        height: 350px;  
     }.about_text p{
         font-size: var(--small-font-size);
         display: flex;
