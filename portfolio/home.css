@@ -1256,11 +1256,11 @@ a{
     }
     
     .home_container article{
-        grid-template-columns: 1fr;    
+        grid-template-columns: 1fr 1fr;    
      
         grid-template-rows: 1fr 1fr ;
         grid-area: "home_icon home_img" "home_content home_content";  
-
+       
         height: max-content; 
         
     }
@@ -1274,7 +1274,7 @@ a{
         font-size: 30px;
     }
     .home_img{
-        margin-left: 50px;
+        margin-left: 80px;
     
         grid-area: home_img;
         width: 250px;
